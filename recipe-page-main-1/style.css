@@ -1,0 +1,126 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    margin: 25px;
+    border-radius:15px ;
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+ img{
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.simple{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 35px;
+    justify-content: space-around;
+}
+
+.simple h1{
+    margin-bottom: 5px;
+    font-family:sans-serif;
+    font-style:italic ;
+}
+
+.preparation{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 35px;
+    background-color: rgba(246, 236, 234, 0.3);
+    width: 500px;
+    height: 150px;
+}
+
+.preparation h3{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.preparation ul li{
+    padding: 4px;
+}
+
+.ingredients{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 550px;
+}
+
+.ingredients h2{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #e83f3f;
+}
+
+.ingredients ul li{
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+.instructions{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 550px;
+}
+
+.instructions h2{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #e83f3f;
+}
+
+.instructions ol li{
+    font-family: sans-serif;
+    padding: 3px;
+}
+
+.nutrition{
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition h2{
+    color: #e83f3f;
+}
+
+.nutrition p{
+    margin-top: 0px;
+}
+
+
+.nutrition table td{
+    border-bottom: 2px groove rgba(0,0,0,0.1);
+    padding: 15px;
+}
+.nutrition table tr:last-child td {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
